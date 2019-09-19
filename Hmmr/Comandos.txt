@@ -1,0 +1,19 @@
+Todos os arquivos devem estar numa mesma pasta; entrar na pasta e rodar no terminal:
+
+Construcao do modelo HMM
+sintaxe: hmmbuild <nome_modelo_HMM> <nome_arq_alinhamento>
+Rodar isso (dessa forma, inclusive com ponto e barra - ponto e barra sao usados para rodar um "arq. executavel", no caso, o hmmbuild):
+./hmmbuild --informat afa model_RNase.hmm RNase_DNA.aln  ("--informat afa" é diretiva de construcao do HMM)
+- vai gerar um arq. igual a "model_RNase-antigo.hmm", junto neste zipado.
+
+Executar o HMMER (sobre uma ou mais sequencias):
+sintaxe: nhmmer nome_arq_saida.tbl nome_modelo_HMM nome_arq_sequencias >> nome_arq_saida.srch
+Rodar isso (dessa forma):
+./nhmmer --tblout model_RNaseXRNase_2L.tbl model_RNase.hmm RNase_2L.fasta >> model_RNaseXRNase_2L.srch
+("--tblout" é diretiva para gerar arquivo em formato TBL; o ">>" antes de "model_RNaseXRNase_2L.srch" é usado pelo Linux para "jogar" as saidas do HMMER, que seriam apresentadas no terminal, para um arq., no caso: "model_RNaseXRNase_2L.srch").
+- vai gerar 2 arqs. iguais aos arqs "model_RNaseXRNase_2L-antigo.tbl" e "model_RNaseXRNase_2L-antigo.srch", juntos neste zipado.
+
+
+Os 2 arqs executaveis (hmmbuild e nhmmer) deverao rodar sem problemas. Se nao estiverem rodando, veja se nao é problema de permissao na pasta, ou seja, vc estaria sem permissao para rodar um executavel no terminal naquela pasta. Acho que nao vai dar problemas. 
+
+Se precisar, mande email e eu tento ajudar - mas tem que me falar o que é reportado no terminal: copie/printscreen da resposta com problema (usem botao direito pra copiar; nao execute "control c" pois nao vai funcionar no terminal) e colar no email.

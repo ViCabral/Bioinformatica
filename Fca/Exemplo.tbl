@@ -1,0 +1,26 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+2L-2R-Seq_24-7670514  -          10000 RNase_Ty1_novo_AA    -            140   7.3e-47  157.0   0.3   1   1   4.2e-49   1.5e-46  155.9   0.3     2   136  6326  6460  6325  6463 0.98 -
+2L-2F-Seq_690-7670514 -          10000 RNase_Ty1_novo_AA    -            140   2.4e-45  152.0   0.0   1   1   1.5e-47   5.5e-45  150.9   0.0     2   139  6785  6923  6784  6924 0.98 -
+2L-2F-Seq_273-7670514 -          10000 RNase_Ty1_novo_AA    -            140     3e-45  151.7   0.0   1   1   1.5e-47   5.5e-45  150.9   0.0     2   139  7015  7153  7014  7154 0.98 -
+2L-2R-Seq_390-7670514 -          10000 RNase_Ty1_novo_AA    -            140   3.2e-45  151.6   0.0   1   1   1.5e-47   5.5e-45  150.9   0.0     2   139  3428  3566  3427  3567 0.98 -
+2L-2F-Seq_105-7670514 -          10000 RNase_Ty1_novo_AA    -            140   3.3e-45  151.6   0.0   1   1   1.5e-47   5.5e-45  150.9   0.0     2   139  6554  6692  6553  6693 0.98 -
+2L-2R-Seq_280-7670514 -          10000 RNase_Ty1_novo_AA    -            140   3.3e-45  151.6   0.0   1   1   1.5e-47   5.5e-45  150.9   0.0     2   139  1347  1485  1346  1486 0.98 -
+2L-2F-Seq_686-7670514 -          10000 RNase_Ty1_novo_AA    -            140   3.4e-45  151.6   0.0   1   1   1.5e-47   5.5e-45  150.9   0.0     2   139  8100  8238  8099  8239 0.98 -
+2L-1R-Seq_705-7670514 -          10000 RNase_Ty1_novo_AA    -            140   3.4e-45  151.5   0.0   1   1   1.5e-47   5.5e-45  150.9   0.0     2   139  6293  6431  6292  6432 0.98 -
+2L-0R-Seq_177-7670514 -          10000 RNase_Ty1_novo_AA    -            140   3.5e-45  151.5   0.0   1   1   1.5e-47   5.5e-45  150.9   0.0     2   139  5400  5538  5399  5539 0.98 -
+2L-1R-Seq_28-7670514  -          10000 RNase_Ty1_novo_AA    -            140   3.5e-45  151.5   0.0   1   1   1.5e-47   5.5e-45  150.9   0.0     2   139  5123  5261  5122  5262 0.98 -
+2L-2F-Seq_125-7670514 -          10000 RNase_Ty1_novo_AA    -            140   3.5e-45  151.5   0.0   1   1   1.5e-47   5.5e-45  150.9   0.0     2   139  2806  2944  2805  2945 0.98 -
+2L-2R-Seq_1-7670514   -          10000 RNase_Ty1_novo_AA    -            140   3.5e-45  151.5   0.0   1   1   1.5e-47   5.5e-45  150.9   0.0     2   139  2010  2148  2009  2149 0.98 -
+2L-2F-Seq_550-7670514 -          10000 RNase_Ty1_novo_AA    -            140   3.7e-05  151.4   0.0   1   1   1.5e-07   5.5e-05  150.9   0.0     2   139  1599  1737  1598  1738 0.98 -
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      model_RNase_Ty1_AAs.hmm
+# Target file:     Cromossomos/dmel-2L-chromosome-r5.48_Translated_subseqs.fasta
+# Option settings: ./hmmsearch --domtblout Resultados_AAs/model_RNase_Ty1_AAsXdmel-2L-chromosome-r5.48.tbl model_RNase_Ty1_AAs.hmm Cromossomos/dmel-2L-chromosome-r5.48_Translated_subseqs.fasta 
+# Current dir:     /home/carlos/Desktop/Novo_RNase_Ty1
+# Date:            Mon Oct 27 16:09:07 2014
+# [ok]
