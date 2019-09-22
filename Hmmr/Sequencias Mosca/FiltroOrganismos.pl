@@ -1,9 +1,9 @@
 #use strict;
 
-my $file = 'Modelo_MoscasOut.tbl';
+my $file = 'ModeloOrganismos.tbl';
 if(open(my $fh, '<:encoding(UTF-8)', $file)){
 
-	my $Saida = 'MoscasOut.cvs';
+	my $Saida = 'ModeloOrganismosOut.cvs';
 	open(my $sh, '>', $Saida) or die "Não foi possível abrir o arquivo '$Saida' $!";
 
 	my $AltaL = 'AltaLigação.cvs';
