@@ -1,2 +1,3 @@
 # Bioinformatica
-Trabalhos de Bioinformatica baseados em Perl
+Bioinformatics works using perl language
+Analysis of genetic sequences
